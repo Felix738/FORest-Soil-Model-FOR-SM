@@ -13,8 +13,21 @@ This dataset contains the model source code of the LWF-BROOK90 model which was u
 # 3. File descriptions
 
 # 3.1 Raw data
+- model src/LWFBrook90Rmasterdev/: full edited LWF-BROOK90 source code files originating from the masterdev branch of the original LWF-BROOK90 repository (https://github.com/pschmidtwalter/LWFBrook90R)
+- data/raw/forest_soil_hydrology_lb_303.txt: Text file containing the results of forest development and soil hydrology for the Lange Bramke site (ICP 303)
+- data/raw/forest_soil_hydrology_sl_304.txt: Text file containing the results of forest development and soil hydrology for the Solling site (ICP 304)
+- data/raw/forest_soil_hydrology_kl_1503.txt: Text file containing the results of forest development and soil hydrology for the Klötze site (ICP 1503)
+- data/raw/forest_biogeochemistry_lb_303.txt: Text file containing the results of forest biogeochemistry for the Lange Bramke site (ICP 303)
+- data/raw/forest_biogeochemistry_sl_304.txt: Text file containing the results of forest biogeochemistry for the Solling site (ICP 304)
+- data/raw/forest_biogeochemistry_kl_1503.txt: Text file containing the results of forest biogeochemistry for the Klötze site (ICP 1503)
 
 # 3.2 Processed data
+- data/processed/forest_development_lb_303_processed.txt: Text file containing the processed results of forest development for the Lange Bramke site including observation values from the monitoring program (ICP 303)
+- data/processed/forest_development_sl_304_processed.txt: Text file containing the processed results of forest development for the Solling site including observation values from the monitoring program (ICP 304)
+- data/processed/forest_development_kl_1503_processed.txt: Text file containing the processed results of forest development for the Klötze site including observation values from the monitoring program (ICP 1503)
+- data/processed/forest_biogeochemistry_lb_303_processed.txt: Text file containing the processed results of forest biogeochemistry for the Lange Bramke site including observation values from the monitoring program (ICP 303)
+- data/processed/forest_biogeochemistry_sl_304_processed.txt: Text file containing the processed results of forest biogeochemistry for the Solling site including the observation values from the monitoring program (ICP 304)
+- data/processed/forest_biogeochemistry_kl_1503_processed.txt: Text file containing the processed results of forest biogeochemistry for the Klötze site including the observation values from the monitoring program (ICP 1503)
 
 # 3.3 Scripts and results
 
@@ -22,7 +35,7 @@ This dataset contains the model source code of the LWF-BROOK90 model which was u
 This dataset is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to use, distribute, and adapt the material, provided proper attribution is given.
 
 # 5. Citation
-Häffner, F., Fischer, R., Ahrends, B., Fuchs, S., Chen, M., Rode, M. (2026). Dataset: Raw Data, Processed Data, Processing Scripts, and Results of FOR-SM. 
+Sauke, F., Fischer, R., Ahrends, B., Fuchs, S., Chen, M., Rode, M. (2026). Dataset: Raw Data, Processed Data, Processing Scripts, and Results of FOR-SM. 
 
 # 6. Contact
 For questions or suggestions, please contact:
