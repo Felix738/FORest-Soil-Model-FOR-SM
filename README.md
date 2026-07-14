@@ -23,6 +23,7 @@ This dataset contains the model source code of the LWF-BROOK90 model which was u
 - data/raw/forest_biogeochemistry_lb_303.txt: Text file containing the results of forest biogeochemistry for the Lange Bramke site (ICP 303)
 - data/raw/forest_biogeochemistry_sl_304.txt: Text file containing the results of forest biogeochemistry for the Solling site (ICP 304)
 - data/raw/forest_biogeochemistry_kl_1503.txt: Text file containing the results of forest biogeochemistry for the Klötze site (ICP 1503)
+- data/raw/sensitivity_analysis: folder structure containing the restuls of the different model runs with changed parameters
 
 # 3.2 Processed data
 - data/processed/forest_development_lb_303_processed.txt: Text file containing the processed results of forest development for the Lange Bramke site including observation values from the monitoring program (ICP 303)
@@ -37,8 +38,14 @@ This dataset contains the model source code of the LWF-BROOK90 model which was u
 - data/processed/forest_biogeochemistry_lb_303_processed.txt: Text file containing the processed results of forest biogeochemistry for the Lange Bramke site including observation values from the monitoring program (ICP 303)
 - data/processed/forest_biogeochemistry_sl_304_processed.txt: Text file containing the processed results of forest biogeochemistry for the Solling site including the observation values from the monitoring program (ICP 304)
 - data/processed/forest_biogeochemistry_kl_1503_processed.txt: Text file containing the processed results of forest biogeochemistry for the Klötze site including the observation values from the monitoring program (ICP 1503)
+- data/processed/slb1_meteo_lb303.txt: Text file containing the processed meteo input data for the Lange Bramke site (ICP 303)
+- data/processed/slb1_meteo_sl304.txt: Text file containing the processed meteo input data for the Solling site (ICP 304)
+- data/processed/slb1_meteo_kl1503.txt: Text file containing the processed meteo input data for the Kloetze site (ICP 1503)
 
 # 3.3 Scripts and results
+- scripts/data analysis submit1.R: R script for data processing, visualization and statistical analysis
+- scripts/FORMIND_LWFBrook90_coupling_script.py: python script for coupling and running the FORMIND and LW-BROOK90 models via the python package FINAM
+- scripts/FORMIND_LWFBrook90_JSM_coupling_script.R: R script for the transformation of FORMIND and LWF-BROOK90 output data to JSM suitable input data
 
 # 4. Licensing
 This dataset is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to use, distribute, and adapt the material, provided proper attribution is given.
