@@ -26,9 +26,9 @@ This dataset contains the model source code of the LWF-BROOK90 model which was u
 - data/raw/sensitivity_analysis: folder structure containing the restuls of the different model runs with changed parameters
 
 # 3.2 Processed data
-- data/processed/forest_development_lb_303_processed.txt: Text file containing the processed results of forest development for the Lange Bramke site including observation values from the monitoring program (ICP 303)
-- data/processed/forest_development_sl_304_processed.txt: Text file containing the processed results of forest development for the Solling site including observation values from the monitoring program (ICP 304)
-- data/processed/forest_development_kl_1503_processed.txt: Text file containing the processed results of forest development for the Klötze site including observation values from the monitoring program (ICP 1503)
+- data/processed/forest_development_lb_303_processed.txt: Text file containing the processed results of forest development for the Lange Bramke site including processed observation values from the monitoring program (ICP 303)
+- data/processed/forest_development_sl_304_processed.txt: Text file containing the processed results of forest development for the Solling site including processed observation values from the monitoring program (ICP 304)
+- data/processed/forest_development_kl_1503_processed.txt: Text file containing the processed results of forest development for the Klötze site including processed observation values from the monitoring program (ICP 1503)
 - data/processed/soil_forcing_litterfall_lb_303.dat: Text file containing the litterfall forcing for the Jena Soil Model (Lange Bramke site, ICP 303)
 - data/processed/soil_forcing_litterfall_sl_304.dat: Text file containing the litterfall forcing for the Jena Soil Model (Solling site, ICP 304)
 - data/processed/soil_forcing_litterfall_kl_1503.dat: Text file containing the litterfall forcing for the Jena Soil Model (Klötze site, ICP 1503)
