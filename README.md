@@ -14,9 +14,9 @@ This dataset contains the model source code of the LWF-BROOK90 model which was u
 
 # 3.1 Raw data
 - model src/LWFBrook90Rmasterdev/: full edited LWF-BROOK90 source code files originating from the masterdev branch of the original LWF-BROOK90 repository (https://github.com/pschmidtwalter/LWFBrook90R)
-- data/raw/forest_soil_hydrology_lb_303.txt: Text file containing the results of forest development and soil hydrology for the Lange Bramke site (ICP 303)
-- data/raw/forest_soil_hydrology_sl_304.txt: Text file containing the results of forest development and soil hydrology for the Solling site (ICP 304)
-- data/raw/forest_soil_hydrology_kl_1503.txt: Text file containing the results of forest development and soil hydrology for the Klötze site (ICP 1503)
+- data/raw/forest_soil_hydrology_lb_303.txt: R object containing the results of forest development and soil hydrology for the Lange Bramke site (ICP 303)
+- data/raw/forest_soil_hydrology_sl_304.txt: R object containing the results of forest development and soil hydrology for the Solling site (ICP 304)
+- data/raw/forest_soil_hydrology_kl_1503.txt: R object containing the results of forest development and soil hydrology for the Klötze site (ICP 1503)
 - data/raw/soil_temperature_lb_303.txt: Text file containing the results of soil temperature for the Lange Bramke site (ICP 303)
 - data/raw/soil_temperature_sl_304.txt: Text file containing the results of soil temperature for the Solling site (ICP 304)
 - data/raw/soil_temperature_kl_1503.txt: Text file containing the results of soil temperature for the Klötze site (ICP 1503)
