@@ -41,6 +41,7 @@ This dataset contains the model source code of the LWF-BROOK90 model which was u
 - data/processed/slb1_meteo_lb303.txt: Text file containing the processed meteo input data for the Lange Bramke site (ICP 303)
 - data/processed/slb1_meteo_sl304.txt: Text file containing the processed meteo input data for the Solling site (ICP 304)
 - data/processed/slb1_meteo_kl1503.txt: Text file containing the processed meteo input data for the Kloetze site (ICP 1503)
+- data/processed/atmospheric deoposition: folder containing the figures and text files of the atmospheric deposition data measured for the three ICP Forests level II sites
 
 # 3.3 Scripts and results
 - scripts/data analysis submit1.R: R script for data processing, visualization and statistical analysis
