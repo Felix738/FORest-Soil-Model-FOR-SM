@@ -23,7 +23,7 @@ This dataset contains the model source code of the LWF-BROOK90 model which was u
 - data/raw/forest_biogeochemistry_lb_303.txt: Text file containing the results of forest biogeochemistry for the Lange Bramke site (ICP 303)
 - data/raw/forest_biogeochemistry_sl_304.txt: Text file containing the results of forest biogeochemistry for the Solling site (ICP 304)
 - data/raw/forest_biogeochemistry_kl_1503.txt: Text file containing the results of forest biogeochemistry for the Klötze site (ICP 1503)
-- data/raw/sensitivity_analysis: folder structure containing the restuls of the different model runs with changed parameters
+- data/raw/sensitivity_analysis: folder structure containing the restuls of the different model runs with changed parameters. To access these files, visit the Zenodo archive: 
 
 # 3.2 Processed data
 - data/processed/forest_development_lb_303_processed.txt: Text file containing the processed results of forest development for the Lange Bramke site including processed observation values from the monitoring program (ICP 303)
