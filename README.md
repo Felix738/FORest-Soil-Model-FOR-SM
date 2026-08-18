@@ -64,6 +64,7 @@ This dataset contains the model source code of the LWF-BROOK90 model which was u
 - scripts/data analysis submit1.R: R script for data processing, visualization and statistical analysis
 - scripts/FORMIND_LWFBrook90_coupling_script.py: python script for coupling and running the FORMIND and LW-BROOK90 models via the python package FINAM
 - scripts/FORMIND_LWFBrook90_JSM_coupling_script.R: R script for the transformation of FORMIND and LWF-BROOK90 output data to JSM suitable input data
+- scripts/soil temperature function.R: R script for calculating vertical distrubution of soil temperatures
 
 # 4. Licensing
 This dataset is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to use, distribute, and adapt the material, provided proper attribution is given.
