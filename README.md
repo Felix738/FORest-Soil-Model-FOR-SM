@@ -70,7 +70,7 @@ This dataset contains the model source code of the LWF-BROOK90 model which was u
 This dataset is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to use, distribute, and adapt the material, provided proper attribution is given.
 
 # 5. Citation
-Sauke, F., Fischer, R., Ahrends, B., Fuchs, S., Chen, M., Rode, M. (2026). Dataset: Raw Data, Processed Data, Processing Scripts, and Results of FOR-SM. 
+Sauke, F., Fischer, R., Ahrends, B., Fuchs, S., Dressler, D., Chen, M., Huth, A., Rode, M. (2026). Dataset: Raw Data, Processed Data, Processing Scripts, and Results of FOR-SM. 
 
 # 6. Contact
 For questions or suggestions, please contact:
