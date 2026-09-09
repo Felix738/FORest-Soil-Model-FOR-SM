@@ -24,16 +24,6 @@
 ! Reshape inout-arrays to hold values on precipitation interval level
 ! Output values at the prec int level to
 
-! FS: read in transpiration and interception from FORMIND
-! real :: ATRANI_FORMIND    ! Declare the variable
-! real :: INTER_FORMIND    ! Declare the variable
-! open(unit=10, file=trim(Downloads), status="old", action="read", iostat=io_status)  !file path for transpiration
-! open(unit=10, file=trim(Downloads), status="old", action="read", iostat=io_status)
-! read(10, *) ATRANI_FORMIND
-! read(10, *) INTER_FORMIND
-! close(10)
-! PRINT*, 'matrix psi must be negative or zero'
-
 
 
 
@@ -149,28 +139,6 @@ subroutine s_brook90_f( siteparam, climveg, param, pdur, soil_materials, soil_no
     else
         DTP = DT
     end if
-
-    ! FS: read in external FORMIND inputs
-    !open(unit=10, file=trim("C:/Users/haeffner/ATRANI_FORMIND.txt"), status="old", action="read")  !file path for transpiration
-    !read(10, *) ATRANI_FORMIND
-    !close(10)
-    ! Check and confirm that the value was read successfully
-    !if (ATRANI_FORMIND /= 0.0) then
-    !    print *, "Success: ATRANI_FORMIND was read correctly."
-    !    print *, "Value of ATRANI_FORMIND:", ATRANI_FORMIND
-    !else
-    !    print *, "Warning: ATRANI_FORMIND may not have been read correctly or is zero."
-    !end if    
-    !open(unit=10, file=trim("C:/Users/haeffner/INTER_FORMIND.txt"), status="old", action="read")  !file path for transpiration
-    !read(10, *) INTER_FORMIND
-    !close(10)
-    ! Check and confirm that the value was read successfully
-    !if (INTER_FORMIND /= 0.0) then
-    !    print *, "Success: INTER_FORMIND was read correctly."
-    !    print *, "Value of INTER_FORMIND:", INTER_FORMIND
-    !else
-    !    print *, "Warning: INTER_FORMIND may not have been read correctly or is zero."
-    !end if    
 	
 	ATRANI_FORMIND = 1
 
@@ -826,9 +794,6 @@ subroutine s_brook90_f( siteparam, climveg, param, pdur, soil_materials, soil_no
         end if
         if (STRES .GT. 1.d0) STRES = 1.d0
         output_day(NPINT*IDAY, 37) = STRES !STRES
-		! FS: replace TRAND
-		! TRAND = param(22)
-		! TRANP = param(22)
 
 !   calc for daily water balance error
         BALERD = STORD - (INTR + INTS + SNOW + SWAT + GWAT) + PRECD - EVAPD - FLOWD - SEEPD
@@ -1638,8 +1603,6 @@ subroutine INTER (RFAL, PINT, LAI, SAI, FRINTL, FRINTS, CINTRL, CINTRS, DTP, INT
     NEWINT = INTR + (CATCH - PINT) * DTP
     IF (NEWINT .GT. 0.0d0) THEN
 !        canopy is wet throughout DTP
-		! FS: exchange ATR
-		! IRVP = 0.0d0
         IRVP = PINT
         IF (NEWINT .GT. INTRMX) THEN
 !           canopy capacity is reached
