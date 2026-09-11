@@ -1,0 +1,3 @@
+data/raw/forest_biogeochemistry_lb_303/** filter=lfs diff=lfs merge=lfs -text
+data/raw/forest_biogeochemistry_kl_1503/** filter=lfs diff=lfs merge=lfs -text
+data/raw/forest_biogeochemistry_sl_304/** filter=lfs diff=lfs merge=lfs -text
